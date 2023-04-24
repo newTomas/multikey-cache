@@ -1,4 +1,4 @@
-export class MultiKeyCache<Key extends { [key in keyof Key]: string }, Value> implements Map<Key, Value>{
+export class MultiKeyObject<Key extends { [key in keyof Key]: string }, Value> implements Map<Key, Value>{
   protected data: Map<string, Value> = new Map();
   protected keyOrder: Array<keyof Key> | undefined;
 

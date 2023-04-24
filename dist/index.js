@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.MultiKeyCache = void 0;
-class MultiKeyCache {
+exports.MultiKeyObject = void 0;
+class MultiKeyObject {
     data = new Map();
     keyOrder;
     getPrimaryKey(key) {
@@ -63,5 +63,5 @@ class MultiKeyCache {
     }
     [Symbol.toStringTag] = "Cache";
 }
-exports.MultiKeyCache = MultiKeyCache;
+exports.MultiKeyObject = MultiKeyObject;
 //# sourceMappingURL=index.js.map

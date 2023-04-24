@@ -1,4 +1,4 @@
-export declare class MultiKeyCache<Key extends {
+export declare class MultiKeyObject<Key extends {
     [key in keyof Key]: string;
 }, Value> implements Map<Key, Value> {
     protected data: Map<string, Value>;

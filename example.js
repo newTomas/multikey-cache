@@ -1,6 +1,6 @@
-const { MultiKeyCache } = require("./dist");
+const { MultiKeyObject } = require("./dist");
 
-const cache = new MultiKeyCache();
+const cache = new MultiKeyObject();
 
 //Automatically converts key fields to strings
 cache.set({
@@ -52,17 +52,17 @@ console.log("cache.get:", cache.get({
 }));
 
 console.log("for of cache:");
-for(let [key, value] of cache){
+for (let [key, value] of cache) {
 	console.log(key, value);
 }
 
 console.log("for of cache.keys:");
-for(let key of cache.keys()){
+for (let key of cache.keys()) {
 	console.log(key);
 }
 
 console.log("for of cache.values:");
-for(let value of cache.values()){
+for (let value of cache.values()) {
 	console.log(value);
 }
 

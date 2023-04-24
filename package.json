@@ -1,14 +1,23 @@
 {
-  "name": "multikeycache",
+  "name": "multikey-object",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "A map implementation that supports objects as keys",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newTomas/multikey-object.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "start": "node example"
+  },
+  "keywords": ["multiple", "complex", "composite", "key", "key-value", "cache", "store", "object", "map", "typescript", "javascript", "fast"],
+  "author": "newTomas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/newTomas/multikey-object/issues"
+  },
+  "homepage": "https://github.com/newTomas/multikey-object#readme",
   "devDependencies": {
     "typescript": "^5.0.4"
   }
