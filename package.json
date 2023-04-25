@@ -11,7 +11,20 @@
   "scripts": {
     "start": "node example"
   },
-  "keywords": ["multiple", "complex", "composite", "key", "key-value", "cache", "store", "object", "map", "typescript", "javascript", "fast"],
+  "keywords": [
+    "multiple",
+    "complex",
+    "composite",
+    "key",
+    "key-value",
+    "cache",
+    "store",
+    "object",
+    "map",
+    "typescript",
+    "javascript",
+    "fast"
+  ],
   "author": "newTomas",
   "license": "MIT",
   "bugs": {
@@ -19,6 +32,8 @@
   },
   "homepage": "https://github.com/newTomas/multikey-object#readme",
   "devDependencies": {
+    "@types/node": "^18.16.0",
+    "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
   }
 }
